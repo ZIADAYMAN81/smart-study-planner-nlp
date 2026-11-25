@@ -1,5 +1,7 @@
 # Smart Study Planner: Sentiment Analysis with DistilBERT and LLM Agents
 
+[![tests](https://github.com/ZIADAYMAN81/smart-study-planner-nlp/actions/workflows/tests.yml/badge.svg)](https://github.com/ZIADAYMAN81/smart-study-planner-nlp/actions/workflows/tests.yml)
+
 > Natural Language Processing coursework, The British University in Egypt, 2026. Author: Ziad Ayman.
 
 The natural language processing engine of a study-planning assistant. A student writes how a study session went; a fine-tuned **DistilBERT** transformer detects whether the reflection is positive or negative, and two **large language model agents** (LLaMA 3.3 through Groq) explain the prediction and plan the next session.
@@ -63,3 +65,6 @@ tests/
 
 ## Tech stack
 Python · PyTorch · Hugging Face Transformers and Datasets · DistilBERT · Groq (LLaMA 3.3) · scikit-learn · pytest
+
+## License
+MIT, see [LICENSE](LICENSE).
